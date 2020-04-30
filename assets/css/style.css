@@ -1,0 +1,49 @@
+:root {
+
+}
+
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Red Hat Text', sans-serif;
+    text-align: center;
+    color: #343837;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background-image: url(../img/Portada2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 10rem;
+}
+
+.celeste {
+    background-color: #000000!important;
+}
+
+.trabajos {
+    background-color: #
+}
+  
+.amarillo {
+    color: #ffffff;
+}
+
+.carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-indicators li {
+    border-radius: 100%; 
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #000000;
+}
+
+.navbar-brand, .fuente-footer {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em !important;
+}
