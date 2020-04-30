@@ -1,12 +1,6 @@
-:root {
-
-}
-
-
 body {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Red Hat Text', sans-serif;
-    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Raleway', sans-serif;
     color: #343837;
     background-color: #ffffff;
     margin: 0;
@@ -20,12 +14,12 @@ header {
     padding: 10rem;
 }
 
-.celeste {
-    background-color: #000000!important;
+h1, h2 {
+    font-family: 'Fredericka the Great', cursive;
 }
 
-.trabajos {
-    background-color: #
+.celeste {
+    background-color: #000000!important;
 }
   
 .amarillo {
@@ -43,7 +37,8 @@ header {
     background-color: #000000;
 }
 
-.navbar-brand, .fuente-footer {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2em !important;
+.logo, .fuente-footer {
+    font-family: 'Major Mono Display', monospace;
+    text: #000000;
+    font-size: 4em !important;
 }
