@@ -5,6 +5,10 @@ body {
     background-color: #ffffff;
     margin: 0;
 }
+.boton {
+    font-family: 'Major Mono Display', monospace;
+    color: #ffffff;
+}
 
 header {
     background-image: url(../img/Portada2.jpg);
@@ -16,14 +20,6 @@ header {
 
 h1, h2 {
     font-family: 'Fredericka the Great', cursive;
-}
-
-.celeste {
-    background-color: #000000!important;
-}
-  
-.amarillo {
-    color: #ffffff;
 }
 
 .carousel-indicators {
@@ -39,6 +35,6 @@ h1, h2 {
 
 .logo, .fuente-footer {
     font-family: 'Major Mono Display', monospace;
-    text: #000000;
+    color: #ffffff;
     font-size: 4em !important;
 }
