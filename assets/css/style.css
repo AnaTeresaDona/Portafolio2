@@ -10,12 +10,29 @@ body {
     color: #ffffff;
 }
 
+.circulo {
+    border-radius: 100%;
+}
+
 header {
-    background-image: url(../img/Portada2.jpg);
+    background-image: url("../img/Portada5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    padding: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  
+.navbar li a {
+    color: #ffffff;
+}
+
+
+hr {
+    width: 25%;
+    color: #000000;
+    height: 1em;
+    padding-bottom: 2em;
 }
 
 h1, h2 {
@@ -33,8 +50,14 @@ h1, h2 {
     background-color: #000000;
 }
 
-.logo, .fuente-footer {
+.logo {
     font-family: 'Major Mono Display', monospace;
     color: #ffffff;
-    font-size: 4em !important;
+    font-size: 2em !important;
+}
+
+/*Colores pantallas pequeñas*/
+.verde {
+    color: #14a76c;
+    background-color:#000000;
 }
