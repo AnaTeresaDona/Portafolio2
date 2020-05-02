@@ -1,26 +1,28 @@
 body {
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Raleway', sans-serif;
+    align-content: center;
     color: #343837;
     background-color: #ffffff;
     margin: 0;
 }
+
 .boton {
     font-family: 'Major Mono Display', monospace;
     color: #ffffff;
 }
 
-.circulo {
-    border-radius: 100%;
-}
-
-header {
-    background-image: url("../img/Portada5.jpg");
+.bg-img {
+    background-image: url("../img/bg-image2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    padding-bottom: 10rem;
-  }
+    background-position: center;
+    padding-bottom: 5em;
+}
+
+.texto {
+    padding-top: 60em;
+}
 
   
 .navbar li a {
@@ -40,7 +42,7 @@ h1, h2 {
 }
 
 .carousel-indicators {
-    bottom: -70px;
+    bottom: -25px;
 }
 
 .carousel-indicators li {
