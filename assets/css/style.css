@@ -7,8 +7,13 @@ body {
     margin: 0;
 }
 
-.navbar-nav li a, .social {
+.social {
+    color: #ff652f
+}
+
+.navbar-nav li a {
     color: #ff652f!important;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .boton {
