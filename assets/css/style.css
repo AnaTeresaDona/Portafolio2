@@ -9,31 +9,23 @@ body {
 
 .boton {
     font-family: 'Major Mono Display', monospace;
-    color: #ffffff;
 }
 
 .bg-img {
-    background-image: url("../img/bg-image2.jpg");
+    background-image: url("../img/bg-image5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 5em;
 }
 
 .texto {
-    padding-top: 60em;
+    padding-bottom:2em;
+    padding-top: 30em;
 }
-
-  
-.navbar li a {
-    color: #ffffff;
-}
-
 
 hr {
     width: 25%;
     color: #000000;
-    height: 1em;
     padding-bottom: 2em;
 }
 

@@ -16,27 +16,6 @@
        <link rel="stylesheet" href="assets/css/style.css">
    
     <title>Portafolio Ana Teresa Doña</title>
-
-    <!--Favicón-->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!--Fin Favicón-->
     <meta name="author" content="Ana Teresa Doña">
     <meta name="description"
     content="Portafolio desplegando lo aprendido, práctica">
@@ -44,7 +23,7 @@
 </head>
 <body>
    <!--Navbar-->
-   <nav class="navbar boton fixed-top bg-dark text-white navbar-expand-lg">
+   <nav class="navbar boton fixed-top navbar-dark bg-dark navbar-expand-lg">
     <div class="container">
 
     <a class="navbar-brand logo p-0 m-0" href="#">ANA</a>
@@ -58,7 +37,7 @@
           <a class="nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">Quién soy</a>
+          <a class="nav-link d-none d-sm-none d-md-none d-lg-block d-xl-block" href="#about">Quién soy</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#experiencia">Experiencia</a>
@@ -80,10 +59,7 @@
   <div class="bg-img">
     <div class="row">
       <div class="col-12"></div>
-
-  
-
-    <header class="text-light pt-5 mx-auto px-auto">   
+    <header class="text-light mx-auto">   
       <div class="row texto text-center">
         <div class="col-12">   
             <h1 class="display-2">Ana Teresa Doña</h1>
@@ -154,9 +130,10 @@
 
 <!--Fin Bloque texto a sacar en versión sm-->
 <!--CAROUSEL-->
-<div class="container my-5 pt-5">
+<div class="container my-5">
   <div class="container">
-    <h2 id="experiencia" class="display-4 text-center my-5">Experiencias</h2>
+    <h2 id="experiencia" class="display-4 text-center">Experiencias</h2>
+    <hr>
     <div class="row my-5">
       <div class="col-lg-12">
         <div id="Carousel" class="carousel slide">
@@ -196,7 +173,8 @@
   <!--FIN CAROUSEL-->
   <!--Últimos trabajos-->
   <section class="container-fluid my-5 p-5" id="work">
-    <h2 class="display-4 text-center mb-5">Últimos proyectos</h2>
+    <h2 class="display-4 text-center">Últimos proyectos</h2>
+    <hr>
     <div class="card-deck mb-4">
       <div class="card shadow">
         <img class="card-img-top" src="assets/img/meet_coffee.png" alt="Meet & Coffee">
@@ -414,10 +392,10 @@
   <footer>
       <div class="fluid bg-dark text-white py-3">
         <div class="row">
-            <div class="col-6 text-right">
+            <div class="col-5 col-sm-5 col-md-6 text-right">
               <h2 class="logo text-align-right">ANA</h2>
             </div>
-            <div class="col-6 text-left">
+            <div class="col-5 col-sm-5 col-md-6 text-left">
               <a href="https://github.com/AnaTeresaDona"><i class="fab fa-github-alt fa-2x text-align-left text-white pl-3"></i></a>
 
               <a href="https://www.linkedin.com/in/anadonavial"><i class="fab fa-linkedin-in fa-2x text-align-left text-white pl-3"></i></a>
