@@ -7,8 +7,13 @@ body {
     margin: 0;
 }
 
+.navbar-nav li a, .social {
+    color: #ff652f!important;
+}
+
 .boton {
     font-family: 'Major Mono Display', monospace;
+    color: #ffe400;
 }
 
 .bg-img {
@@ -31,6 +36,7 @@ hr {
 
 h1, h2 {
     font-family: 'Fredericka the Great', cursive;
+    color: #ff652f;
 }
 
 .carousel-indicators {
@@ -41,12 +47,12 @@ h1, h2 {
     border-radius: 100%; 
     width: 0.8em;
     height: 0.8em;
-    background-color: #000000;
+    background-color: #ff652f;
 }
 
 .logo {
     font-family: 'Major Mono Display', monospace;
-    color: #ffffff;
+    color: #ff652f!important;
     font-size: 2em;
 }
 
